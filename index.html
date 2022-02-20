@@ -1,50 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediaMonks | The Path to Digital Enlightenment</title>
+  <link rel="icon" href="./images/favicon.ico" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
 
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<body>
+  <!-- Panaroma Image Slider-->
+  <!--Arrow-left-->
+  <div id="leftArrow">
+    <a href="#" onclick="return flase;">&lsaquo;</a>
+  </div>
+  <div id="rightArrow">
+    <a href="#" onclick="return flase;">&rsaquo;</a>
+  </div>
+  <div class="container">
+    <img src="./images/background.jpg" alt="Panaroma-Image" id="bgImage">
+  </div>
+  <img src="./images/logo.svg" alt="Panaroma-Image" class="logo">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <ul id="pages">
+    <li><a href="#" onclick="return false;">
+        <p id="0"></p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="1">1</p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="2">2</p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="3">3</p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="4">4</p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="5">5</p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="6">6</p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="7">7</p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="8">8</p>
+      </a></li>
+    <li><a href="#" onclick="return false;">
+        <p id="9"></p>
+      </a></li>
+  </ul>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <!--Page-0-->
+  <article id="page0">
+    <span class="mainText">WE ARE BREAKING<br>OUR VOW<br>OF SILENCE</span>
+    <span class="detailText0">In january 2011, after a decade of digital, we opened the doors to our temple.<br>Follow our noble eightfold path to digital enlightenment here.</span>
+  </article>
+  <!--Page-1-->
+  <article id="page1">
+    <span class="mainText">TALENT IS GIVEN<br>TRUE SKILL IS<br>EARNED</span>
+    <span class="detailText">Step 1 out of 8 on the path to digital enlightenment.</span>
+  </article>
+  <!--Page-2-->
+  <article id="page2">
+    <span class="mainText">Be flexible<br>to change and<br>sturdy in<br>conviction</span>
+    <span class="detailText">Step 2 out of 8 on the path to digital enlightenment.</span>
+  </article>
+  <!--Page-3-->
+  <article id="page3" class="textAlignRight">
+    <span class="mainText">Be flexible<br>to change and<br>sturdy in<br>conviction</span>
+    <span class="detailText">Step 3 out of 8 on the path to digital enlightenment.</span>
+  </article>
+  <!--Page-4-->
+  <article id="page4" class="textAlignRight">
+    <span class="mainText">To master<br>anything find<br>interest in<br>everything</span>
+    <span class="detailText">Step 4 out of 8 on the path to digital enlightenment.</span>
+  </article>
+  <!--Page-5-->
+  <article id="page5" class="textAlignRight">
+    <span class="mainText">Individuals<br>flourish<br>if culture<br>and wisdom<br>are shared</span>
+    <span class="detailText">Step 5 out of 8 on the path to digital enlightenment.</span>
+  </article>
+  <!--Page-6-->
+  <article id="page6">
+    <span class="mainText">rain for<br>perfection but<br>aim for more</span>
+    <span class="detailText">Step 6 out of 8 on the path to digital enlightenment.</span>
+  </article>
+  <!--Page-7-->
+  <article id="page7">
+    <span class="mainText">Take pride in your<br>work but do not<br>seek praise</span>
+    <span class="detailText">Step 7 out of 8 on the path to digital enlightenment.</span>
+  </article>
+  <!--Page-8-->
+  <article id="page8">
+    <span class="mainText">Temporary<br>sacrifice brings<br>lasting results</span>
+    <span class="detailText">Step 8 out of 8 on the path to digital enlightenment.</span>
+  </article>
+  <!--Page-0-->
+  <article id="page9">
+    <span class="mainText">Become a monk</span>
+    <p class="lastPage textAlignRight ">Interested in joining our monastery?
+      <br>Check out our current openings on <a href="media.monks.com">mediamonks.com/careers</a>
+      .
+    </p>
+    <ul class="social">
+      <li>Mail ons</li>
+      <li>Facebook</li>
+      <li>Twitter</li>
+    </ul>
+
+  </article>
+
+  <script type="text/javascript" src="./JS/index.js"></script>
+</body>
+
 </html>
